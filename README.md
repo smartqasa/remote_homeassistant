@@ -5,7 +5,7 @@
 
 <img align="left" width="80" height="80" src="icons/icon.png" alt="App icon">
 
-# Remote Home-Assistant (SmaartQasa)
+# Remote Home-Assistant (SmartQasa)
 
 _Component to link multiple Home-Assistant instances together._
 
