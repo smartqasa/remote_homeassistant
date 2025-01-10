@@ -312,7 +312,7 @@ class RemoteConnection:
         self._secure = config_entry.data.get(CONF_SECURE, False)
         self._verify_ssl = config_entry.data.get(CONF_VERIFY_SSL, False)
         self._access_token = config_entry.data.get(CONF_ACCESS_TOKEN)
-        self._max_msg_size = config_entry.data.get(CONF_MAX_MSG_SIZE)
+        self._max_msg_size = config_entry.data.get(CONF_MAX_MSG_SIZE, DEFAULT_MAX_MSG_SIZE)
 
         # see homeassistant/components/influxdb/__init__.py
         # for include/exclude logic
